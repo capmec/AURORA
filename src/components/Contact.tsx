@@ -36,18 +36,30 @@ export function Contact() {
 					</div>
 					<div className='grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center'>
 						<div className='flex flex-col items-center space-y-4'>
-							<img
-								src='/instagram.png'
-								alt='Instagram QR Code'
-								className='w-50 h-60 p-2 bg-white rounded-xl shadow-md'
-							/>
+							<a
+								href='https://www.instagram.com/cinthiaalvesprais/'
+								target='_blank'
+								rel='noopener noreferrer'
+								className='transition-transform hover:scale-105'>
+								<img
+									src='/instagram.png'
+									alt='Instagram QR Code'
+									className='w-50 h-60 p-2 bg-white rounded-xl shadow-md'
+								/>
+							</a>
 						</div>
 						<div className='flex flex-col items-center space-y-4'>
-							<img
-								src='/whatsapp.png'
-								alt='WhatsApp QR Code'
-								className='w-50 h-60 p-2 bg-white rounded-xl shadow-md'
-							/>
+							<a
+								href='https://chat.whatsapp.com/HZWIj3kBV7aEPhcV8xYDOi'
+								target='_blank'
+								rel='noopener noreferrer'
+								className='transition-transform hover:scale-105'>
+								<img
+									src='/whatsapp.png'
+									alt='WhatsApp QR Code'
+									className='w-50 h-60 p-2 bg-white rounded-xl shadow-md'
+								/>
+							</a>
 						</div>
 					</div>
 				</div>
