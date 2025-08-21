@@ -30,42 +30,12 @@ const books = [
 		buyLink:
 			'https://hotmart.com/pt-br/marketplace/produtos/estado-civil-em-um-relacionamento-serio-comigo-mesma/I101122954C',
 	},
-	{
-		id: 4,
-		title: 'EM BREVE',
-		cover: '/logopb.png',
-		buyLink: '',
-	},
-	{
-		id: 5,
-		title: 'EM BREVE',
-		cover: '/logopb.png',
-		buyLink: '',
-	},
-	{
-		id: 6,
-		title: 'EM BREVE',
-		cover: '/logopb.png',
-		buyLink: '',
-	},
-	{
-		id: 7,
-		title: 'EM BREVE',
-		cover: '/logopb.png',
-		buyLink: '',
-	},
-	{
-		id: 8,
-		title: 'EM BREVE',
-		cover: '/logopb.png',
-		buyLink: '',
-	},
 ]
 
 export function CarouselSize() {
 	return (
 		<>
-			<div className='max-w-7xl mx-auto px-4 py-8 mt-24'>
+			<div className='max-w-7xl mx-auto px-4 '>
 				<h2 className='text-4xl font-bold text-left'>E-Books</h2>
 				<div className='flex items-center justify-center px-4'>
 					<Carousel
@@ -96,8 +66,8 @@ export function CarouselSize() {
 								</CarouselItem>
 							))}
 						</CarouselContent>
-						<CarouselPrevious className='cursor-pointer absolute -left-12 ' />
-						<CarouselNext className=' cursor-pointer absolute -right-12' />
+						{/* <CarouselPrevious className='cursor-pointer absolute -left-12 ' />
+						<CarouselNext className=' cursor-pointer absolute -right-12' /> */}
 					</Carousel>
 				</div>
 			</div>

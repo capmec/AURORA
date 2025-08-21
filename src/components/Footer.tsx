@@ -16,7 +16,7 @@ export function Footer() {
 						<FaInstagram size={24} />
 					</a>
 					<a
-						href='https://chat.whatsapp.com/HZWIj3kBV7aEPhcV8xYDOi'
+						href='https://wa.me/5511930689846'
 						target='_blank'
 						rel='noopener noreferrer'
 						className='text-gray-600 hover:text-[#e16b65] transition-colors'>

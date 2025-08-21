@@ -1,6 +1,6 @@
 export function About() {
 	return (
-		<section className='py-0 bg-[#e16b65] max-w-7xl mx-auto rounded-xl shadow-lg overflow-hidden mb-4'>
+		<section className='py-0 bg-[#e16b65] max-w-7xl mx-auto rounded-xl shadow-lg overflow-hidden mb-4 mt-4'>
 			<div className='container mx-auto'>
 				<div className='grid grid-cols-1 md:grid-cols-2 h-full'>
 					<div className='flex '>
